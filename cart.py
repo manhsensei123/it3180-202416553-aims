@@ -25,3 +25,5 @@ class Cart:
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
+        # Fix cart calculation logic for Lab 03
+        
